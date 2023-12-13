@@ -1,0 +1,177 @@
+body, html, .container-main, .section1, .section2{
+    width: 100%;
+    height: 100%;
+  
+   }
+
+   :root{
+    --fondo1: #FFFFFF;;
+    --degradado1: #B492FD;
+    --degradado2: #AD4EF5;
+    --borde1: #D1D2FA;
+    --borde2: #1D1D1D;
+    --login: #6B43FF;
+    --letratituto: 'Montserrat Alternates';
+    --letra: 'Montserrat';
+    --colorletra:#6667B0;
+   
+}
+
+   
+.container-main{
+    /* align-items: center; */
+    /* display: flex; */
+    /* flex-wrap: wrap;      */
+   
+} 
+
+.section1{
+    background: var(--fondo1);
+    position: absolute;
+   
+}
+
+.section2{
+    background: linear-gradient(to right, var(--degradado1), var(--degradado2));
+    position: absolute;
+    left:800px;
+    /* display: flex;
+    align-items: center;
+     */
+}
+
+#monito-registro{
+    width: 950px;
+    height: 1000px;
+    position: relative;
+}
+
+
+.sign-up{
+    background-color: var(--fondo1);
+    border: 1px solid var(--borde1);
+    width: 570px;
+    height: 735px;
+    position: relative;
+    top: 5%;
+    left: 100px ;  
+    box-shadow: 20px 20px 20px 20px #5E5E5E26;
+}
+
+#texto1{
+    font-family: var(--letratituto);
+    font-weight: bold;
+    font-size: 36px;
+    position: relative;
+    top:80px;
+    left: 60px;
+}
+
+.google-apple{
+    /* border: 1px solid var(--borde2); */
+    text-align: center;
+    position: relative;
+    top:110px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#google-img,#apple-img{
+   
+    width: 50px;
+    height: 50px;
+    margin: 12px;
+}
+
+
+    .google-button, .apple-button{
+        width: 220px;
+        height: 80px;
+        border: 1px solid var(--borde2);
+        border-radius: 10px;
+        background-color: var(--fondo1);
+        font-family: var(--letratituto);
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 49px;
+    }
+
+
+    .division{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* gap: 30px; */
+        margin-left: 50px;
+        margin-right: 50px;
+        position: relative;
+        top: 130px;
+    }
+
+    .linea{
+        background-color: var(--borde2);
+        width: 40%;
+        height: 1px;
+    }
+
+    .email, .contrasenha{
+        position: relative;
+        top: 110px;
+        left: 50px;
+        font-family: var(--letratituto);
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    #email, #contrasenha{
+        width: 436px;
+        height: 70px;;
+        border-radius: 12px;
+        border: 1px solid var(--borde2);
+        left: 20px;
+        font-family: var(--letratituto);
+        font-size:25px;
+        padding-left: 30px;
+    }
+
+    /* .boton-ingresar{
+        text-align: center;
+        position: relative;
+        top:130px;
+    } */
+
+    #boton-morado{
+        width: 469px;
+        height: 70px;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--login);
+    
+        display: flex;
+        align-items: center;
+        position: relative;
+        top:145px;
+        left: 50px;
+        justify-content: center;
+        font-family: var(--letratituto);
+        font-size:25px;
+        font-weight: bold;
+        color: var(--fondo1);
+    
+    }
+
+    #texto-final{
+        position: relative;
+        top: 190px;
+        text-align: end;
+        right: 50px;
+        font-size: 22px;
+        font-family: var(--letratituto);
+        font-weight: bold;
+        color: var(--login);
+        
+
+    }

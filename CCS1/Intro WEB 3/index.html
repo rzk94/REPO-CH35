@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Aqui se invoca el documento externo de estilos-->
+    <link rel="stylesheet" href="./Assets/Style/style.css">
+    
+</head>
+<body>
+
+    <!--Tenemos tres formas distintas de agregar estilos a un documento html
+
+        Inline (en linea) 
+        Para trabajar con los estilos in line utilizamos la palabra reservada style y con esto ya le damos la instruccion de lo que queremos añadir.
+        Tiene mayor jerarquia sobre la etiqueta style.
+    -->
+
+
+
+   <h1>inline</h1>
+    <p style="background-color: aqua;color:blueviolet;font-size: xx-large;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt repudiandae labore sunt deleniti accusantium eveniet ad ipsam cumque! Pariatur illo a voluptatibus autem repellat quisquam quidem eum esse, ullam molestiae?</p>
+
+    <!--
+        Utilizando la etiqueta <style>
+            Cuando usamos los estilos dentro de la etiqueta style, "separamos" los estilos de etiqueta, para mantener un codigo limpio y claro
+
+    -->
+
+<style>
+body {
+    background-color: brown;
+}
+</style>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores molestiae quam nesciunt, quis adipisci facilis omnis hic eveniet sequi est ab inventore totam doloremque rerum explicabo minima similique voluptas illo.</p>
+
+<!--
+    Referencia a un documento de estilos extern
+    (buena practica)
+    -Codigo mas limpio
+    -Codigo mas entendible
+    -Velocidad de lectura en nuestra pagina
+    -Escalabilidad
+
+    Utilizar estilos de un documento externo significa que vamos a tener dos documentos; uno para html index.html
+
+-->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatem facere et distinctio reiciendis numquam esse vitae recusandae eius nesciunt, qui enim quo in vel, incidunt consequuntur iure ab mollitia!</p>
+
+
+<!-- Clases y ID
+
+    Todos pertenecemos a la clase CH35
+nuestro ID seria nuestro nombre.
+Palabra reservada class(.class)
+Palabra reservada id(#id)
+Un ID se utiliza para seleccionar un solo elemento, mientras que una clase se utiliza para seleccionar más de un elemento. Es como si aplicaras un "IN LINE" pero en CSS.
+-->
+<div class="css1" id="E1">
+
+<h2 class="CH35" id="rey">Rey</h2>
+<h2 class="CH35" id="uriel">Uriel</h2>
+
+</div>
+
+
+
+<div class="css1" id="E2">
+
+<h2 class="CH35" id="rene">Rene</h2>
+<h2 class="CH35" id="marco">Marco</h2>
+
+</div>
+<!--
+    El modelo de caja nos permite establecer el diseño de nuestros sitios web, ya que hace que nuestros elementos se presenten en formas triangulares y de esta forma podemos modificar
+-->
+
+</body>
+</html>
