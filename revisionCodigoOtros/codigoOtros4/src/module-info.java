@@ -4,5 +4,5 @@
 /**
  * 
  */
-module poo3 {
+module Otros4 {
 }
